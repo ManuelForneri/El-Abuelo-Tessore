@@ -1,0 +1,199 @@
+h1 {
+	color: #F1DBC4;
+	font-family: 'Playfair Display', serif;	font-weight: 100;
+	display: flex;
+
+
+}
+
+.bg-gold{
+	background-color: #F1DBC4;
+}
+
+
+#segundotitulo{
+	color: white;
+	display:flex;
+	justify-content: center;
+  	align-items: center;
+  	text-shadow:  2px 4px 15px #000;
+  	font-size: 35px;
+
+
+	
+}
+.titulo{
+	font-size: 30px;
+}
+
+#joyeriafoto{
+	width: 20%;
+}
+
+
+
+body {
+	background-color: #263F5B;
+}
+
+#titulorubro {
+	font-family: 'Playfair Display', serif;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	text-shadow: 2px 4px 15px #000;
+	font-size: 30px;
+	
+}
+
+
+.tituloprincipal{
+	font-size:80px;
+  	text-shadow:  2px 4px 15px #000;
+
+}
+
+#titulojoyeria{
+	font-family: "Constantia", serif;
+	font-size: 17px;
+	padding-left: 13%;
+	text-shadow: 2px 4px 15px #000;
+
+
+}
+.fotos .foto{
+	box-shadow: 2px 4px 15px #000;
+}
+
+#titulorelojeria{
+	font-family: "Constantia", serif;
+	font-size: 17px;
+	margin-left: 20%;
+}
+
+#titulograbados {
+	font-family: "Constantia", serif;
+	font-size: 17px;
+	margin-left: 20%;
+}
+
+
+#joyeriafoto{
+	width: 20%;
+	margin-left: 12%;
+	float: left;
+	
+}
+#descripcionrelojeria{
+	display: flex;
+	width: 50%;
+	font-size: 20px;
+	padding-top: 70px;
+	padding-left: 30px;
+
+
+}
+.rubrodescripcion{
+	display: inline-block;
+	padding: 5px;
+	margin-left: auto;
+}
+
+.bars{
+	display: none;
+}
+
+@media only screen and (max-width: 800px){
+
+.tituloprincipal{
+	font-size: 40px;
+}
+
+#subtitulo{
+text-align: center;
+}
+
+.fotos{
+	flex-direction: column;
+}
+
+.fotos .foto{
+	margin-right: 0%;
+	margin-bottom: 1rem;
+}
+.fotos .foto:nth-last-child(){
+	margin-bottom: 0%;
+}
+
+.descripcion{
+	width:calc(100% - 2rem) ;
+	margin-left:1rem ;
+	margin-right: 1rem;
+	
+}
+.rubro{
+	flex-direction: column;
+
+}
+.home{
+	display: none;
+}
+.bars{
+	display: block;
+}
+
+.titulo{
+	font-size: 20px;
+}
+
+#segundotitulo{
+	color: white;
+  	text-shadow:  2px 4px 15px #000;
+  	width: 100%;
+  	font-size: 160%;
+}
+
+#piedefoto{
+	display: block;
+	width: 100%;
+	height: auto;
+
+}
+
+#logoinstagram{
+	width: 15%;
+}
+
+#logofacebook {
+	width: 7.5%;
+	padding-bottom: 1.5%;
+
+}
+.rubros{
+	background-color:#F1DBC4; 
+	width: 100%;
+	
+	
+}
+
+#titulojoyeria{
+	font-family: "Constantia", serif;
+	font-size: 100%;
+	padding-left: 12%;
+}
+#joyeriafoto{
+	width: 30%;
+
+}
+.rubrodescripcion{
+	display: block;
+	width: 100%;
+
+	
+}
+#descripcionrelojeria{
+	font-size: 100%;
+	margin: auto;
+}
+}
